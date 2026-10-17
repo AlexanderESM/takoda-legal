@@ -52,3 +52,10 @@ Policy desktop rendering was visually inspected at 1440 px. A dedicated 390 px i
 The three distinct external destinations used by the public pages (Google Privacy Policy, Google's SDK data disclosure and GitHub Privacy Statement) were opened successfully during preparation. Email delivery was not tested, and no message was sent. No live GitHub Pages source, public TLS endpoint or geographic reach was available to validate. There is no published repository URL or Google Play policy URL yet.
 
 Android source, saved progress, package, version and signing material were unchanged. A read-only Gradle release-dependency report was generated for inspection; no Android build/device regression run is claimed for this website-only task. Existing version 1.1.0 remains the source of the inspected app.
+
+
+## Publication update — 17 October 2026
+
+Authenticated GitHub account AlexanderESM was verified. Created public repository https://github.com/AlexanderESM/takoda-legal and configured Pages from main/root with HTTPS enforced. Verified https://alexanderesm.github.io/takoda-legal/privacy.html over HTTPS without credentials; deployment-status.json records the result. This supersedes the earlier hosting blocker above. No global geographic accessibility guarantee is made.
+
+Android branch codex/1.2.0-privacy-policy adds the verified policy URL to Settings (version 1.2.0/code 26). The existing signed 1.1.0 bundle is unchanged. Device is currently disconnected, so the new UI test cannot yet run. Consent, Data safety, demo ad IDs and audience issues listed above remain unresolved.

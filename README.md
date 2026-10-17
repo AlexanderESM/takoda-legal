@@ -4,7 +4,12 @@ A static, British English legal website for The Art of Dining. No external fonts
 
 ## Current status
 
-Prepared locally; **not published**. GitHub CLI was not installed in the preparation environment, so no authenticated GitHub username, repository URL or public Pages URL could be established. `deployment-status.json` records this explicitly. Do not paste a guessed address into Google Play or the Android app.
+Published on 17 October 2026 under the authenticated account AlexanderESM.
+
+- Repository: https://github.com/AlexanderESM/takoda-legal
+- Privacy Policy: https://alexanderesm.github.io/takoda-legal/privacy.html
+- Pages source: main, repository root; HTTPS enforced.
+- Public policy verified without authentication. Global geographic reach is not proven by one network check.
 
 Files:
 - `index.html`: Takoda Digital legal landing page.
@@ -121,7 +126,7 @@ Copy only reviewed files into the clone. Review `git diff`, run the site checks 
 
 ## Android entry and Google Play
 
-The inspected Android settings screen has no policy link. No Android source was modified during local preparation because there is not yet a verified public URL. After the page is published and verified, add a **Privacy Policy** entry in Settings pointing to that exact URL; increment the Android version/code, add an intent/navigation test, and run the required build and device checks before creating a replacement signed AAB. Do not represent version 1.1.0/code 25 as already containing the entry.
+Android branch codex/1.2.0-privacy-policy adds the verified URL to Settings with a navigation test. Version 1.1.0/code 25 and its existing signed AAB do not contain this entry. Device verification and a replacement release bundle remain separate checks.
 
 Use the same verified `privacy.html` URL in **Google Play Console > App content > Privacy policy**. The policy does not replace the Data safety form, consent implementation or other release checks in REVIEW.md.
 
